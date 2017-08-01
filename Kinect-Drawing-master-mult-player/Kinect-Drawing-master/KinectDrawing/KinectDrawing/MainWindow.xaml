@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KinectDrawing"
         mc:Ignorable="d"
-        Title="KINECT Drawing" Height="350" Width="525"
+      Title="KINECT Drawing" Height="350" Width="525"
         WindowState="Maximized"
         Background="Black"
         Closing="Window_Closing">
@@ -13,8 +13,8 @@
         <Grid Width="1920" Height="1080">
             <Image Name="camera" />
             <Canvas Name="canvas">
-            <Button Name="btn1" Background="Blue" Content="Erase all" Canvas.Bottom="1000" 
-                 Canvas.Left="100"/>
+                <Button Name="btn1" Background="Blue" Content="Erase all" Width="1920" Height="250" Canvas.Top="-32" 
+                 Canvas.Left="-18"/>
 
                 <local:DrawingBrush x:Name="brush" Width="300" Height="300" />
                 <Polyline Name="trail" Stroke="Red" StrokeThickness="15">
